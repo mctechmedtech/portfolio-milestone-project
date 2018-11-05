@@ -1,0 +1,145 @@
+/***** Base Styles *****/
+body {
+	margin: 30px;
+
+}
+
+
+/***** Grid *****/
+
+
+.full-width {
+	width: 1200px;
+	margin 0 auto;
+
+}
+
+
+.half-width {
+	width: 600px;
+	float: left;
+
+}
+
+
+.third-width {
+	width: 400px;
+	float: left;
+	padding-top: 50px;
+
+}
+
+
+.center {
+    	margin: auto;
+    	text-align: center;
+	
+
+}
+
+
+/*****Header*****/
+
+
+header {
+	height: 800px;
+
+
+}
+
+nav {
+	float: right;
+	padding-top: 25px;
+	
+}
+
+
+nav ul li {
+	display: inline-block;
+
+
+}
+
+
+nav ul li a {
+	padding-left: 60px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #9b9b9b;
+
+
+}
+
+
+header h1 {
+	text-align: center;
+	padding: 150px 0px 25px 0px;
+
+}
+
+
+header h2 {
+	float: left;
+
+}
+
+/*****About*****/
+
+#about {
+	height: 1050px;
+
+
+}
+
+
+#about h2 {
+	text-align: center;
+	
+
+}
+
+#about p {
+	text-align: center;
+
+
+}
+
+
+/*****Portfolio*****/
+
+
+#portfolio {
+	height: 850px;
+
+
+}
+
+
+#portfolio h2 {
+	text-align: center;
+
+
+}
+
+img {
+	border: 1px solid gray;
+	height: 200px;
+	width: 200px;
+
+
+}
+/*****Footer*****/
+
+
+#contact {
+	height: 650px;
+
+}
+
+
+#contact h2 {
+	text-align: center;
+ 
+}
+
+
