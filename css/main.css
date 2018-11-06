@@ -43,7 +43,7 @@ body {
 
 header {
 	height: 800px;
-
+	background-color: #ffffff;
 
 }
 
@@ -87,8 +87,8 @@ header h2 {
 
 #about {
 	height: 1050px;
-
-
+	background-color: #ff654a;
+	padding-top: 75px;
 }
 
 
@@ -110,7 +110,7 @@ header h2 {
 
 #portfolio {
 	height: 850px;
-
+	padding-top: 75px;
 
 }
 
