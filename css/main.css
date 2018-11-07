@@ -27,6 +27,7 @@ body {
 	float: left;
 	padding-top: 50px;
 
+
 }
 
 
@@ -86,7 +87,8 @@ header h2 {
 /*****About*****/
 
 #about {
-	height: 1050px;
+	color: #ffffff;
+	height: 650px;
 	background-color: #ff654a;
 	padding-top: 75px;
 }
@@ -109,8 +111,8 @@ header h2 {
 
 
 #portfolio {
-	height: 850px;
-	padding-top: 75px;
+	height: 650px;
+	padding-top: 225px;
 
 }
 
@@ -121,18 +123,21 @@ header h2 {
 
 }
 
-img {
+#portfolio img {
 	border: 1px solid gray;
-	height: 200px;
-	width: 200px;
+	height: 250px;
+	width: 250px;
 
 
 }
-/*****Footer*****/
+/*****Contact Section*****/
 
 
 #contact {
-	height: 650px;
+	color: #fff;
+	height: 450px;
+	background-color: #ff654a;
+	padding-top: 175px;
 
 }
 
@@ -142,4 +147,50 @@ img {
  
 }
 
+/*****Email*****/
+
+#email-address {
+	text-decoration: none;
+	color: #fff;
+
+}
+
+/*****SocialMedia*****/
+
+
+#contact ul {
+	list-style: none;
+	position: relative;
+	right: 5%;
+}
+
+
+#contact ul li {
+	display: inline-block;
+	
+}
+
+
+#contact ul img {
+	width: 50px;
+	height: 50px;
+	padding: 10px;
+}
+
+#social-media-header {
+	padding-left: 0px;
+
+}
+
+
+/*****Footer*****/
+
+footer p {
+	background-color: #ff654a;
+	color: #fff;
+	font-size: 12px;
+	margin: 0;
+	text-align: center;
+	padding-bottom: 20px;
+}
 
