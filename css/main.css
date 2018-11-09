@@ -10,7 +10,7 @@ body {
 
 .full-width {
 	width: 1200px;
-	margin 0 auto;
+	margin: 0 auto;
 
 }
 
@@ -45,12 +45,13 @@ body {
 header {
 	height: 800px;
 	background-color: #ffffff;
+	padding: 100px;
 
 }
 
 nav {
 	float: right;
-	padding-top: 25px;
+	
 	
 }
 
@@ -72,17 +73,41 @@ nav ul li a {
 }
 
 
+header h1 img {
+	
+	padding-right: 10px;
+
+}
+
+
 header h1 {
-	text-align: center;
-	padding: 150px 0px 25px 0px;
+	float: left;	
+	font-family: 'Libre Baskerville', serif;
+	font-size: 48pt;
+	text-align: left;
+	
+	
 
 }
 
 
 header h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24pt;
+	font-weight: normal;
 	float: left;
+	text-align: left;
 
 }
+
+
+span {
+	color: #ff654a;
+
+
+}
+
+
 
 /*****About*****/
 
@@ -90,11 +115,14 @@ header h2 {
 	color: #ffffff;
 	height: 650px;
 	background-color: #ff654a;
-	padding-top: 75px;
+	
 }
 
 
 #about h2 {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 36pt;
+	padding-top: 175px;
 	text-align: center;
 	
 
@@ -112,12 +140,14 @@ header h2 {
 
 #portfolio {
 	height: 650px;
-	padding-top: 225px;
-
+	
 }
 
 
 #portfolio h2 {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 36pt;
+	padding-top: 175px;
 	text-align: center;
 
 
