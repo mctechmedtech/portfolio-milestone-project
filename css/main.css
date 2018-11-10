@@ -1,25 +1,20 @@
 /***** Base Styles *****/
+
 body {
 	margin: 30px;
-
+	border: 1px solid #313131;
+	
 }
 
 
 /***** Grid *****/
 
-
 .full-width {
 	width: 1200px;
-	margin: 0 auto;
-
+	padding-left: 100px;
+	
 }
 
-
-.half-width {
-	width: 600px;
-	float: left;
-
-}
 
 
 .third-width {
@@ -45,13 +40,17 @@ body {
 header {
 	height: 800px;
 	background-color: #ffffff;
-	padding: 100px;
+	
+	
 
 }
 
+
 nav {
 	float: right;
-	
+	padding-top: 50px;
+	position: relative;
+	left: 40%;
 	
 }
 
@@ -64,28 +63,32 @@ nav ul li {
 
 
 nav ul li a {
-	padding-left: 60px;
+	color: #313131;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18pt;
+	font-weight: normal;
+	padding-left: 25px;
 	text-decoration: none;
 	text-transform: uppercase;
-	color: #9b9b9b;
 
 
 }
 
 
+
 header h1 img {
 	
-	padding-right: 10px;
+	padding-right: 27px;
 
 }
 
 
 header h1 {
-	float: left;	
+		
 	font-family: 'Libre Baskerville', serif;
 	font-size: 48pt;
 	text-align: left;
-	
+	padding-top: 292px;
 	
 
 }
@@ -93,9 +96,9 @@ header h1 {
 
 header h2 {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 24pt;
+	font-size: 32pt;
 	font-weight: normal;
-	float: left;
+	
 	text-align: left;
 
 }
@@ -113,7 +116,7 @@ span {
 
 #about {
 	color: #ffffff;
-	height: 650px;
+	height: 1050px;
 	background-color: #ff654a;
 	
 }
@@ -122,7 +125,7 @@ span {
 #about h2 {
 	font-family: 'Libre Baskerville', serif;
 	font-size: 36pt;
-	padding-top: 175px;
+	padding-top: 171px;
 	text-align: center;
 	
 
@@ -139,40 +142,61 @@ span {
 
 
 #portfolio {
-	height: 650px;
+	height: 850px;
 	
 }
 
 
 #portfolio h2 {
 	font-family: 'Libre Baskerville', serif;
-	font-size: 36pt;
-	padding-top: 175px;
+	font-size: 32pt;
+	padding-top: 168px;
 	text-align: center;
 
 
 }
 
+
+#portfolio h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 18pt;
+
+}
+
+
+#portfolio p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	font-size: 18pt;
+
+}
+
+
 #portfolio img {
 	border: 1px solid gray;
-	height: 250px;
-	width: 250px;
+	height: 225px;
+	width: 350px;
 
 
 }
+
+
 /*****Contact Section*****/
 
 
 #contact {
 	color: #fff;
-	height: 450px;
+	height: 650px;
 	background-color: #ff654a;
-	padding-top: 175px;
+	padding-top: 173px;
 
 }
 
 
 #contact h2 {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 36pt;
 	text-align: center;
  
 }
