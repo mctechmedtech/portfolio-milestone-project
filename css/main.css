@@ -1,8 +1,7 @@
 /***** Base Styles *****/
 
 body {
-	margin: 30px;
-	border: 1px solid #313131;
+	margin: 0px;
 	
 }
 
@@ -161,6 +160,7 @@ span {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
 	font-size: 18pt;
+	padding-top: 32px;
 
 }
 
@@ -169,7 +169,7 @@ span {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: normal;
 	font-size: 18pt;
-
+	
 }
 
 
