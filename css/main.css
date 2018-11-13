@@ -97,7 +97,6 @@ header h2 {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 32pt;
 	font-weight: normal;
-	
 	text-align: left;
 
 }
@@ -161,6 +160,7 @@ span {
 	font-weight: bold;
 	font-size: 18pt;
 	padding-top: 32px;
+	margin-bottom: 0;
 
 }
 
@@ -169,14 +169,15 @@ span {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: normal;
 	font-size: 18pt;
+	margin-top: 0;
 	
 }
 
 
 #portfolio img {
 	border: 1px solid gray;
-	height: 225px;
-	width: 350px;
+	height: 250px;
+	width: 300px;
 
 
 }
