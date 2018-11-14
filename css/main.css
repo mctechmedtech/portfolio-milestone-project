@@ -36,20 +36,23 @@ body {
 /*****Header*****/
 
 
+
 header {
 	height: 800px;
-	background-color: #ffffff;
-	
-	
+	background-color: #fff;
+		
 
 }
 
 
+
 nav {
+	
 	float: right;
 	padding-top: 50px;
 	position: relative;
 	left: 40%;
+	
 	
 }
 
@@ -113,9 +116,9 @@ span {
 /*****About*****/
 
 #about {
-	color: #ffffff;
+	color: #313131;
 	height: 1050px;
-	background-color: #ff654a;
+	background-color: #E8EBE4;
 	
 }
 
@@ -141,7 +144,7 @@ span {
 
 #portfolio {
 	height: 850px;
-	
+	background-color: #F9F9F7;
 }
 
 
@@ -168,7 +171,7 @@ span {
 #portfolio p {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: normal;
-	font-size: 18pt;
+	font-size: 14pt;
 	margin-top: 0;
 	
 }
@@ -187,9 +190,9 @@ span {
 
 
 #contact {
-	color: #fff;
+	color: #313131;
 	height: 650px;
-	background-color: #ff654a;
+	background-color: #E8EBE4;
 	padding-top: 173px;
 
 }
@@ -206,7 +209,7 @@ span {
 
 #email-address {
 	text-decoration: none;
-	color: #fff;
+	color: #313131;
 
 }
 
@@ -241,8 +244,8 @@ span {
 /*****Footer*****/
 
 footer p {
-	background-color: #ff654a;
-	color: #fff;
+	background-color: #E8EBE4;
+	color: #313131;
 	font-size: 12px;
 	margin: 0;
 	text-align: center;
