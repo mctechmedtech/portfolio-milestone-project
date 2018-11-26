@@ -39,8 +39,9 @@ body {
 
 header {
 	height: 800px;
-	background-color: #fff;
+	background-color: #E8EBE4;
 	
+
 }
 
 
@@ -49,7 +50,7 @@ nav {
 	float: right;
 	padding-top: 50px;
 	position: relative;
-	left: 40%;
+	left: 10%;
 	
 	
 }
@@ -79,7 +80,7 @@ nav ul li a {
 header h1 img {
 	
 	padding-right: 27px;
-
+	height: 75px;
 }
 
 
@@ -116,7 +117,7 @@ span {
 #about {
 	color: #313131;
 	height: 1050px;
-	background-color: #E8EBE4;
+	background-color: #ff654a;
 	
 }
 
@@ -136,13 +137,16 @@ span {
 
 }
 
-
+#about img {
+	width: 20%;
+}
 /*****Portfolio*****/
 
 
 #portfolio {
 	height: 850px;
-	background-color: #F9F9F7;
+	background-color: #E8EBE4;
+	margin: 45px auto;
 }
 
 
@@ -176,7 +180,8 @@ span {
 
 
 #portfolio img {
-	border: 1px solid gray;
+	border: 1px solid #313131;
+	
 	height: 250px;
 	width: 300px;
 
@@ -190,7 +195,7 @@ span {
 #contact {
 	color: #313131;
 	height: 650px;
-	background-color: #E8EBE4;
+	background-color: #ff654a;
 	padding-top: 173px;
 
 }
@@ -226,6 +231,7 @@ span {
 #contact ul li {
 	display: inline-block;
 	
+
 }
 
 
@@ -233,19 +239,39 @@ span {
 	width: 50px;
 	height: 50px;
 	padding: 0px 25px 0px;
+	 
+
 }
+
 
 
 #social-media-header {
 	padding-left: 0px;
 
+
 }
+
+
+#envelope {
+	width: 50px;
+	height: 50px;
+	position: relative;
+	right: .5%;
+
+}
+
+#email-address {
+	padding: 125px;
+	text-align: center;
+
+}
+
 
 
 /*****Footer*****/
 
 footer p {
-	background-color: #E8EBE4;
+	background-color: #ff654a;
 	color: #313131;
 	font-size: 12px;
 	margin: 0;
