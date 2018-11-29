@@ -2,7 +2,7 @@
 
 body {
 	margin: 0px;
-	
+	background-color: #fff;
 }
 
 
@@ -10,7 +10,7 @@ body {
 
 .full-width {
 	width: 1200px;
-	padding-left: 100px;
+	margin: 0 auto;
 	
 }
 
@@ -26,7 +26,7 @@ body {
 
 
 .center {
-    	margin: auto;
+    	margin: 0 auto;
     	text-align: center;
 	
 
@@ -39,7 +39,7 @@ body {
 
 header {
 	height: 800px;
-	background-color: #E8EBE4;
+	
 	
 
 }
@@ -81,6 +81,8 @@ header h1 img {
 	
 	padding-right: 27px;
 	height: 75px;
+
+
 }
 
 
@@ -90,7 +92,7 @@ header h1 {
 	font-size: 48pt;
 	text-align: left;
 	padding-top: 292px;
-	
+	padding-left: 50px;
 
 }
 
@@ -100,7 +102,7 @@ header h2 {
 	font-size: 32pt;
 	font-weight: normal;
 	text-align: left;
-
+	padding-left: 50px;
 }
 
 
@@ -145,8 +147,8 @@ span {
 
 #portfolio {
 	height: 850px;
-	background-color: #E8EBE4;
-	margin: 45px auto;
+	background-color: #fff;
+	
 }
 
 
@@ -236,9 +238,9 @@ span {
 
 
 #contact ul img {
-	width: 50px;
+	width: 55px;
 	height: 50px;
-	padding: 0px 25px 0px;
+	padding: 0px 20px 0px;
 	 
 
 }
@@ -263,6 +265,12 @@ span {
 #email-address {
 	padding: 125px;
 	text-align: center;
+
+}
+
+
+#linked-icon {
+	width: 350px;
 
 }
 
